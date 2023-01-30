@@ -1,0 +1,3 @@
+Input Specifications,,,,,Per-Expiration Data,,,Per-Option Data,,,,
+Category,Asset Type,Underlying,Expiry List,Data Class,Expiry Data,UL Price Data,Time to Go Data,Strike Data,Bid Data,Ask Data,OLHC Bid,OLHC Ask
+Short Duration Indices,20 minute,US 500,,,time inside expiry-list_expiry,Indicative price,cell cell--right inside expiry-list-expiry,data-ember-action >strike,price_tick price-button--sell sell,price_tick price-button--buy buy,"read: 1 sec, candle: 1 min","read: 1 sec, candle: 1 min"

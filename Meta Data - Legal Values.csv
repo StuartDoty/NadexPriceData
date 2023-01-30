@@ -1,0 +1,7 @@
+Input Specifications,,,,,Per-Expiration Data,,,Per-Option Data,,,
+Category,Asset Type,Underlying,Expiry List,Data Class,Expiry Data,UL Price Data,Time to Go Data,Strike Data,Bid Data,Ask Data,OLHC Prices
+Market Classes,indices,"US 500, US Tech 100, Wall St 30, US Smallcap 2000, Japan 225",Daily (n{a|p}m),market-list_content,time inside expiry-list_expiry,Indicative price,cell cell--right inside expiry-list-expiry,data-ember-action >strike,price_tick price-button--sell sell,price_tick price-button--buy buy,"Read Bid and Ask periodically to get open, close, high and low prices for each minute."
+,forex,"EUR/USD, USD/JPY, AUD/USD, GBP/USD, EUR/JPY, GBP/JPY, USD/CAD, AUD/JPY, USD/CHF, EUR/GBP, USD/MXN",Weekly,,,,,,- => 0,- => 100,"Candlesticks are calculated in graph coordinates, not prices.  OLHC is displayed in tooltip at the time where the cursor is. Could maybe step through time with the cursor and read the tooltip, but I'll try just reading B & A over time first."
+,commodities,"Crude Oil, Gold, Natural Gas",m[a|p]m-n[a|p]m,,,,,,,,
+Short Duration Forex,5 minute,"EUR/USD, USD/JPY, AUD/USD, GBP/USD, EUR-JPY, GBP-JPY, USD-CAD",Just one,,,,,,,,
+Short Duration Indices,20 minute,"US 500, US Tech 100, Wall St 30, US Smallcap 2000, Japan 225",Just one,,,,,,,,
